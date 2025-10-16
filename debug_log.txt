@@ -1,0 +1,119 @@
+﻿--- Tue Oct 14 01:39:35 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'body'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 54, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'body'
+
+--- Tue Oct 14 01:41:22 2025
+
+--- Tue Oct 14 01:53:26 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'body'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'body'
+
+Luna: Error making API request: fetch() got an unexpected keyword argument
+'body'
+
+--- Tue Oct 14 03:27:48 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Luna is typing...
+
+Logging
+--- Tue Oct 14 03:31:54 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'body'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 56, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'body'
+
+Luna: Error making API request: fetch() got an unexpected keyword argument
+'body'
+
+--- Tue Oct 14 03:38:07 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'body'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 56, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'body'
+
+Luna: Error making API request: fetch() got an unexpected keyword argument
+'body'
+
+--- Tue Oct 14 03:50:53 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'body'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 56, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'body'
+

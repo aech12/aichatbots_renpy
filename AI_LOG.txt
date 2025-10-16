@@ -1,0 +1,266 @@
+﻿Logging
+--- Wed Oct 15 19:20:10 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Logging
+--- Wed Oct 15 19:24:57 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Eileen
+You've created a new Ren'Py game.
+
+test
+testtt
+
+Logging
+--- Wed Oct 15 19:28:33 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Logging
+--- Wed Oct 15 19:33:19 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Eileen
+after log
+
+Logging
+--- Wed Oct 15 19:37:45 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Logging
+--- Wed Oct 15 19:56:52 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Eileen
+after log
+
+Debug message here
+Logging
+Logging
+--- Wed Oct 15 19:59:51 2025
+
+Logging
+Logging
+--- Wed Oct 15 20:06:50 2025
+
+hi
+hi
+Logging
+Logging
+--- Wed Oct 15 20:08:30 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Eileen
+after log
+
+test
+testtt
+
+Logging
+Logging
+--- Wed Oct 15 20:11:27 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Eileen
+after log
+
+Logging
+Logging
+--- Wed Oct 15 20:15:02 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Debug message here
+Debug message here
+hi
+Logging
+--- Wed Oct 15 20:18:32 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Eileen
+after log
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'model'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'model'
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'model'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'model'
+
+Logging
+--- Wed Oct 15 22:19:28 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Eileen
+after log
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'model'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'model'
+
+Logging
+Exception Type: TypeError
+Exception Message: fetch() got an unexpected keyword argument 'model'
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+TypeError: fetch() got an unexpected keyword argument 'model'
+
+Logging
+--- Wed Oct 15 22:41:48 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Eileen
+after log
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Exception Type: FetchError
+Exception Message: 401 Client Error: Unauthorized for url:
+https://openrouter.ai/api/v1/chat/completions
+Traceback: Traceback (most recent call last):
+  File "game/scripts/aichat.rpy", line 57, in send_request
+    response = renpy.fetch(
+               ^^^^^^^^^^^^
+  File "C:\Users\alex\Documents\programs\renpy-8.4.1-
+sdk\renpy\exports\fetchexports.py", line 279, in fetch
+    raise content  # type: ignore
+    ^^^^^^^^^^^^^
+renpy.exports.fetchexports.FetchError: 401 Client Error: Unauthorized for url:
+https://openrouter.ai/api/v1/chat/completions
+
+Luna: Error making API request: 401 Client Error: Unauthorized for url:
+https://openrouter.ai/api/v1/chat/completions
+
+Logging
+--- Wed Oct 15 22:55:13 2025
+
+Eileen
+You've created a new Ren'Py game.
+
+Eileen
+after log
+
+test
+testtt
+
+Luna is typing...
+
+Logging
+Raw API Response: b'\n         \n\n
+\n{"id":"gen-1760579745-OaFBWuXHafQdzmejDOZi","provider":"Google AI
+Studio","model":"google/gemini-2.0-flash-exp:free","object":"chat.completion",
+"created":1760579745,"choices":[{"logprobs":null,"finish_reason":"stop","nativ
+e_finish_reason":"STOP","index":0,"message":{"role":"assistant","content":"\\"
+Alex, huh? That\'s a nice name! I\'m Luna! It\'s pouring out there, isn\'t it?
+Glad I found this cozy spot. What brings you here on such a gloomy day?\\"
+*curious head tilt with a smile*\\n","refusal":null,"reasoning":null}}],"usage
+":{"prompt_tokens":62,"completion_tokens":55,"total_tokens":117,"prompt_tokens
+_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":
+0,"image_tokens":0}}}'
+Parsed Response Data: {
+  "id": "gen-1760579745-OaFBWuXHafQdzmejDOZi",
+  "provider": "Google AI Studio",
+  "model": "google/gemini-2.0-flash-exp:free",
+  "object": "chat.completion",
+  "created": 1760579745,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Alex, huh? That's a nice name! I'm Luna! It's pouring
+out there, isn't it? Glad I found this cozy spot. What brings you here on such
+a gloomy day?\" *curious head tilt with a smile*\n",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 55,
+    "total_tokens": 117,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0
+    }
+  }
+}
+Response keys: dict_keys(['id', 'provider', 'model', 'object', 'created',
+'choices', 'usage'])
